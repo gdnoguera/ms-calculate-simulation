@@ -1,0 +1,9 @@
+{
+ "firstPrice":"primerpago",
+ "balanceFinance":"saldoafinanciar",
+ "valueFee":"valorcuota",
+ "interestPorcentageEA":"porcentajeinteresEA",
+ "interestPorcentageEM":"porcentajeinteresEM",
+ "interestPorcentageMora":"porcentajeinteresmora",
+ "interestPorcentageCurrentEA": "porcentajeintereccorriente"
+}

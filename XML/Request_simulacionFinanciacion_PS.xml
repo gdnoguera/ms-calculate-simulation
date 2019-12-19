@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sim="http://www.claro.com.co/financingIntegrator/simulacionFinanciacion">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <sim:Input_Parameters>
+         <AFINIDAD>{AFINIDAD}</AFINIDAD>
+         <PLAZO>{PLAZO}</PLAZO>
+         <SALDO_FINANCIAR>{SALDO_FINANCIAR}</SALDO_FINANCIAR>
+         <CODIGO_EXENCION_IVA>{CODIGO_EXENCION_IVA}</CODIGO_EXENCION_IVA>
+      </sim:Input_Parameters>
+   </soapenv:Body>
+</soapenv:Envelope>

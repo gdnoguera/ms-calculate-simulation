@@ -1,0 +1,26 @@
+{
+  "name": "MS-CalculateSimulation",
+  "version": "1.0.0",
+  "description": "this servicies is a mock of simulation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server.js"
+  },
+  "author": "Juan Sebastian Espitia Barbosa",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cron": "^1.7.2",
+    "easy-soap-request": "^3.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.3.0",
+    "fs": "0.0.1-security",
+    "mongoose": "^5.8.0",
+    "node-cron": "^2.0.3",
+    "xml-to-json-stream": "^1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
