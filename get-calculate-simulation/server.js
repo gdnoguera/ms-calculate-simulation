@@ -11,7 +11,7 @@ const express = require("express"),
 
 
 
-mongoose.connect("mongodb://localhost:27017/ValueAffinity", (err, resp) => { })
+mongoose.connect("mongodb://admin:1234@cluster0-0vxcx.mongodb.net/test?retryWrites=true&w=majority", (err, resp) => { })
   .then(r => {
     CronJob.schedule('0 54 9 * * 0-6', () => {
       Service.informationDB();
