@@ -2,7 +2,7 @@
 
 const express = require("express"),
   bodyParser = require("body-parser"),
-  config = require("./Config/config.js"),
+  config = require("./Config/Config.js"),
   CronJob = require("node-cron"),
   mongoose = require("mongoose"),
   Service = require("./Routers/CalculateSimulation"),
