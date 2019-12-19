@@ -22,7 +22,9 @@ app.post('/Mock', (req, res) => {
 });
 
 
-
+app.get('/prueba',(req,res)=>{
+   res.json( {hola : 'hola'});
+});
 
 app.post('/MS-CalculateSimulation',
    [
