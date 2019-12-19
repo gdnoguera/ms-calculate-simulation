@@ -18,7 +18,8 @@ const Response = function(req)
                      .replace("valorcuota",Calsimulation(CalPriceIva(req.balanceFinance,req.iva.porcentageIVA),req.iva.porcentageIVA,29,req.numberFee))
                      .replace("porcentajeinteresEA",29)
                      .replace("porcentajeinteresEM",29)
-                     .replace("porcentajeinteresmora",29);
+                     .replace("porcentajeinteresmora",29)
+                     .replace("porcentajeintereccorriente",29)
                      
     return respJson;
  }
